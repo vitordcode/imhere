@@ -1,19 +1,19 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet } from 'react-native'
 
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#131313",
+    backgroundColor: '#131313',
     padding: 24,
   },
   eventName: {
-    color: "#FFF",
+    color: '#FFF',
     fontSize: 24,
-    fontWeight: "bold",
+    fontWeight: 'bold',
     marginTop: 48,
   },
   eventDate: {
-    color: "#6b6b6b",
+    color: '#6b6b6b',
     fontSize: 16,
   },
   form: {
@@ -43,5 +43,10 @@ export const styles = StyleSheet.create({
   buttonText: {
     color: '#FFF',
     fontSize: 24,
-  }
-});
+  },
+  listEmptyText: {
+    color: '#FFF',
+    fontSize: 12,
+    textAlign: 'center',
+  },
+})
